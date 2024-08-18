@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+}
+
+.choose {
+    margin: 200px auto;
+    width: 1200px;
+    height: 510px;
+    display: flex;
+}
+
+.kino, .serial, .kniga {
+    cursor: pointer;
+    width: 350px;
+    height: 100px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 52.5px;
+    margin-left: 25px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border: rgb(83, 83, 83) solid 1px;
+
+    transition: background-color 2s;
+}
+
+.name {
+    width: 400px;
+    height: 100%;
+    display: inline-block;
+}
+
+.choose_info {
+    width: 775px;
+    height: 375px;
+    margin-top: 67.5px;
+    background-color: black;
+    border: rgb(83, 83, 83) solid 1px;
+    border-radius: 20px;
+    color: white;
+}
+
+.kino:hover, .serial:hover, .kniga:hover {
+    background-color: rgb(15, 15, 15);
+}
+
+.kino:active, .serial:active, .kniga:active {
+    background: linear-gradient(to left, #8761f1, cubic-bezier(0.12, 0, 0.39, 0), rgb(249, 143, 191));
+}

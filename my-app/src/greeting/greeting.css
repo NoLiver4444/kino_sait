@@ -1,0 +1,24 @@
+.greeting_items {
+    margin-top: 225px;
+    width: 100%;
+    color: white;
+}
+
+.greeting {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.greeting_line {
+    height: 2px;
+    width: 500px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 7px auto;
+}
+
+.greeting_info {
+    text-align: center;
+    font-size: 15px;
+}

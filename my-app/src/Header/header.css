@@ -1,0 +1,38 @@
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header_items {
+    color: rgb(131, 131, 131);
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 45%;
+    font-size: 15px;
+
+    background-image: linear-gradient(to left, #6c4dc2, rgb(254, 146, 195));
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    transition: color 0.5s linear;
+}
+
+.header_items:hover {
+    color: transparent;
+}
+
+.last_item {
+    margin-right: 0px;
+}
+
+.header_links {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
