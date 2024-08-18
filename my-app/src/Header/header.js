@@ -7,7 +7,8 @@ const Header = () => (
           <a class="header_items" href="@">ГЛАВНАЯ</a>
           <a class="header_items" href="@">ФИЛЬМЫ</a>
           <a class="header_items" href="@">КНИГИ</a>
-          <a class="header_items last_item" href="@">СЕРИАЛЫ</a>
+          <a class="header_items" href="@">СЕРИАЛЫ</a>
+          <a class="header_items last_item" href="@">АНИМЕ</a>
       </div>
     </header> 
 )
